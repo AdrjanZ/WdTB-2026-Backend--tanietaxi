@@ -4,5 +4,7 @@ package pl.wsb.tanietaxi.pricing.entity;
 public enum VehicleClass {
     ECONOMY,
     COMFORT,
-    VAN
+    VAN,
+    SPORT,
+    PREMIUM
 }
