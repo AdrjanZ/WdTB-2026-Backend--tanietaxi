@@ -46,5 +46,4 @@ insert into vehicle (brand, model, registration_number, seats, vehicle_class, ac
     ('Ford',   'Tourneo Custom', 'DW 3TX03', 8, 'VAN',     true),
     ('Toyota', 'Yaris',         'DW 4TX04', 4, 'ECONOMY', false),
     ('Porsche',  '911 Carrera',  'DW 5TX05', 4, 'SPORT',   true),
-    ('Mercedes', 'E-Class',      'DW 6TX06', 5, 'PREMIUM', true),
-    ('Renault',  'Clio',         'DW 7TX07', 5, 'ECONOMY', true);
+    ('Mercedes', 'E-Class',      'DW 6TX06', 5, 'PREMIUM', true);
