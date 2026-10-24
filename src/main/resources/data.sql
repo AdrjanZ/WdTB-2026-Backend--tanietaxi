@@ -37,3 +37,11 @@ insert into ride (pickup_address, destination_address, distance_km, price, statu
     ('ul. Piłsudskiego 105, Wrocław', 'ul. Graniczna 190, Wrocław (lotnisko)', 11.50, 44.80, 'COMPLETED', '2026-10-21 05:40:00', 4),
     ('ul. Ruska 46, Wrocław',       'ul. Legnicka 58, Wrocław',          3.10,  13.44, 'ACCEPTED',  '2026-10-24 12:05:00', null),
     ('Rynek 1, Wrocław',            'ul. Borowska 213, Wrocław',         4.80,  17.52, 'REQUESTED', '2026-10-24 12:30:00', null);
+
+-- ===== LAB 02 · vehicle =====
+-- Przykładowa flota; seats oznacza liczbę miejsc dla pasażerów, bez kierowcy.
+insert into vehicle (brand, model, registration_number, seats, vehicle_class, active) values
+    ('Toyota', 'Corolla',       'DW 1TX01', 4, 'ECONOMY', true),
+    ('Skoda',  'Superb',        'DW 2TX02', 4, 'COMFORT', true),
+    ('Ford',   'Tourneo Custom', 'DW 3TX03', 8, 'VAN',     true),
+    ('Toyota', 'Yaris',         'DW 4TX04', 4, 'ECONOMY', false);
