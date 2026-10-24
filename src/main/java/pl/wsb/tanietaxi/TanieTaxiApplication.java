@@ -1,4 +1,4 @@
-package pl.wsb.projekt;
+package pl.wsb.tanietaxi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,9 +11,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Reguła R1.01 sprawdza, czy to zrobiliście.
  */
 @SpringBootApplication
-public class ProjektApplication {
+public class TanieTaxiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProjektApplication.class, args);
+        SpringApplication.run(TanieTaxiApplication.class, args);
     }
 }
