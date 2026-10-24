@@ -15,3 +15,10 @@ insert into user_account (email, display_name, role, created_at) values
     ('wrx81901@student.wroclaw.merito.pl', 'Adrian', 'USER', current_timestamp),
     ('s817346@student.wroclaw.merito.pl',  'Kamil',  'USER', current_timestamp),
     ('s489506@student.wroclaw.merito.pl',  'Maciek', 'USER', current_timestamp);
+
+-- ===== LAB 02 · driver =====
+insert into driver (full_name, phone, license_number, rating, active) values
+    ('Tomasz Nowak',     '+48 601 234 567', 'WR-TX-0142', 4.85, true),
+    ('Ewa Kowalczyk',    '+48 602 345 678', 'WR-TX-0217', 4.92, true),
+    ('Paweł Wiśniewski', '+48 603 456 789', 'WR-TX-0388', 4.40, false),
+    ('Marta Zielińska',  null,              'WR-TX-0451', null, true);
