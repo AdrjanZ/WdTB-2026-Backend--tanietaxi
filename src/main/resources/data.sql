@@ -22,3 +22,10 @@ insert into driver (full_name, phone, license_number, rating, active) values
     ('Ewa Kowalczyk',    '+48 602 345 678', 'WR-TX-0217', 4.92, true),
     ('Paweł Wiśniewski', '+48 603 456 789', 'WR-TX-0388', 4.40, false),
     ('Marta Zielińska',  null,              'WR-TX-0451', null, true);
+
+-- ===== LAB 02 · tariff =====
+insert into tariff (name, vehicle_class, base_fare, price_per_km, valid_from) values
+    ('Ekonomiczny dzienny', 'ECONOMY', 6.00,  2.40, '2026-10-01'),
+    ('Ekonomiczny nocny',   'ECONOMY', 8.00,  3.00, '2026-10-01'),
+    ('Komfort dzienny',     'COMFORT', 8.00,  3.20, '2026-10-01'),
+    ('Van dla grupy',       'VAN',     12.00, 4.00, '2026-10-01');
