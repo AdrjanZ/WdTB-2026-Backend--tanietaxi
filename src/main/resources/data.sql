@@ -29,3 +29,11 @@ insert into tariff (name, vehicle_class, base_fare, price_per_km, valid_from) va
     ('Ekonomiczny nocny',   'ECONOMY', 8.00,  3.00, '2026-10-01'),
     ('Komfort dzienny',     'COMFORT', 8.00,  3.20, '2026-10-01'),
     ('Van dla grupy',       'VAN',     12.00, 4.00, '2026-10-01');
+
+-- ===== LAB 02 · ride =====
+-- cena = opłata startowa + km × stawka z cennika (Ekonomiczny dzienny: 6.00 + km × 2.40, Komfort dzienny: 8.00 + km × 3.20)
+insert into ride (pickup_address, destination_address, distance_km, price, status, ordered_at, rating) values
+    ('pl. Grunwaldzki 1, Wrocław',  'ul. Fabryczna 29, Wrocław',         6.20,  20.88, 'COMPLETED', '2026-10-20 08:15:00', 5),
+    ('ul. Piłsudskiego 105, Wrocław', 'ul. Graniczna 190, Wrocław (lotnisko)', 11.50, 44.80, 'COMPLETED', '2026-10-21 05:40:00', 4),
+    ('ul. Ruska 46, Wrocław',       'ul. Legnicka 58, Wrocław',          3.10,  13.44, 'ACCEPTED',  '2026-10-24 12:05:00', null),
+    ('Rynek 1, Wrocław',            'ul. Borowska 213, Wrocław',         4.80,  17.52, 'REQUESTED', '2026-10-24 12:30:00', null);
